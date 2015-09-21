@@ -14,6 +14,11 @@
 		4096A7551BA81847002CB273 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4096A7541BA81847002CB273 /* Images.xcassets */; };
 		4096A7581BA81847002CB273 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4096A7561BA81847002CB273 /* LaunchScreen.xib */; };
 		4096A7641BA81847002CB273 /* animationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4096A7631BA81847002CB273 /* animationTests.m */; };
+		4096A76E1BA818FB002CB273 /* optisol.png in Resources */ = {isa = PBXBuildFile; fileRef = 4096A76D1BA818FB002CB273 /* optisol.png */; };
+		4096A7991BA84A0B002CB273 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096A7951BA849D7002CB273 /* CoreGraphics.framework */; };
+		4096A79B1BA84A11002CB273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096A79A1BA84A11002CB273 /* Foundation.framework */; };
+		4096A79D1BA84A19002CB273 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096A79C1BA84A19002CB273 /* UIKit.framework */; };
+		4096A7DD1BA858E4002CB273 /* UIImageView+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 4096A7DC1BA858E4002CB273 /* UIImageView+image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		4096A75D1BA81847002CB273 /* animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4096A7621BA81847002CB273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4096A7631BA81847002CB273 /* animationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationTests.m; sourceTree = "<group>"; };
+		4096A76D1BA818FB002CB273 /* optisol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = optisol.png; path = ../../../Downloads/optisol.png; sourceTree = "<group>"; };
+		4096A7951BA849D7002CB273 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4096A79A1BA84A11002CB273 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4096A79C1BA84A19002CB273 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4096A7DB1BA858E4002CB273 /* UIImageView+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+image.h"; sourceTree = "<group>"; };
+		4096A7DC1BA858E4002CB273 /* UIImageView+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4096A79D1BA84A19002CB273 /* UIKit.framework in Frameworks */,
+				4096A79B1BA84A11002CB273 /* Foundation.framework in Frameworks */,
+				4096A7991BA84A0B002CB273 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,9 @@
 		4096A73B1BA81846002CB273 = {
 			isa = PBXGroup;
 			children = (
+				4096A79C1BA84A19002CB273 /* UIKit.framework */,
+				4096A79A1BA84A11002CB273 /* Foundation.framework */,
+				4096A7951BA849D7002CB273 /* CoreGraphics.framework */,
 				4096A7461BA81847002CB273 /* animation */,
 				4096A7601BA81847002CB273 /* animationTests */,
 				4096A7451BA81847002CB273 /* Products */,
@@ -81,6 +98,7 @@
 		4096A7461BA81847002CB273 /* animation */ = {
 			isa = PBXGroup;
 			children = (
+				4096A76D1BA818FB002CB273 /* optisol.png */,
 				4096A74B1BA81847002CB273 /* AppDelegate.h */,
 				4096A74C1BA81847002CB273 /* AppDelegate.m */,
 				4096A74E1BA81847002CB273 /* ViewController.h */,
@@ -89,6 +107,8 @@
 				4096A7541BA81847002CB273 /* Images.xcassets */,
 				4096A7561BA81847002CB273 /* LaunchScreen.xib */,
 				4096A7471BA81847002CB273 /* Supporting Files */,
+				4096A7DB1BA858E4002CB273 /* UIImageView+image.h */,
+				4096A7DC1BA858E4002CB273 /* UIImageView+image.m */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -199,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4096A76E1BA818FB002CB273 /* optisol.png in Resources */,
 				4096A7531BA81847002CB273 /* Main.storyboard in Resources */,
 				4096A7581BA81847002CB273 /* LaunchScreen.xib in Resources */,
 				4096A7551BA81847002CB273 /* Images.xcassets in Resources */,
@@ -219,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4096A7DD1BA858E4002CB273 /* UIImageView+image.m in Sources */,
 				4096A7501BA81847002CB273 /* ViewController.m in Sources */,
 				4096A74D1BA81847002CB273 /* AppDelegate.m in Sources */,
 				4096A74A1BA81847002CB273 /* main.m in Sources */,
@@ -350,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
