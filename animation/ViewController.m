@@ -23,11 +23,11 @@
 }
 -(void)display
 {
-    CGFloat leftrightMinvalue=-100.0f;
+    CGFloat leftrightMinvalue=-60.0f;
     CGFloat leftrightMaxvalue=100.0f;
     
     CGFloat updownMinvalue=-35.0f;
-    CGFloat updownMaxvalue=35.0f;
+    CGFloat updownMaxvalue=100.0f;
     UIInterpolatingMotionEffect *motionEffect= [[UIInterpolatingMotionEffect alloc] initWithKeyPath:@"center.x"
                                                                                                type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
     motionEffect.minimumRelativeValue = @(leftrightMinvalue);
